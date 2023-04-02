@@ -1,16 +1,14 @@
 import React from "react";
 
+const messageURL = process.env.message_url;
+
 const Contact = () => {
   return (
     <div id="contact" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
       </h1>
-      <form
-        action="https://getform.io/f/77a2b331-6a4a-4d60-9fe2-6ed546e5ae28"
-        method="POST"
-        encType="multipart/form-data"
-      >
+      <form action={messageURL} method="POST" encType="multipart/form-data">
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Name</label>
