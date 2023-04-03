@@ -7,7 +7,7 @@ const Contact = () => {
         Contact
       </h1>
       <form
-        action={__MESSAGE_ENV__}
+        action={__VITE_MESSAGE__}
         method="POST"
         encType="multipart/form-data"
       >
