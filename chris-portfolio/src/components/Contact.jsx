@@ -1,6 +1,6 @@
 import React from "react";
 
-const { VITE_MESSAGE } = import.meta.env.VITE_MESSAGE;
+const { message } = process.env.VITE_MESSAGE;
 
 const Contact = () => {
   return (
@@ -8,7 +8,7 @@ const Contact = () => {
       <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e]">
         Contact
       </h1>
-      <form action={VITE_MESSAGE} method="POST" encType="multipart/form-data">
+      <form action={message} method="POST" encType="multipart/form-data">
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
             <label className="uppercase text-sm py-2">Name</label>
