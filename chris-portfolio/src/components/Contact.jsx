@@ -7,7 +7,7 @@ const Contact = () => {
         Contact
       </h1>
       <form
-        action={__VITE_MESSAGE__}
+        action="https://getform.io/f/39d31aca-6a89-432a-bd44-c00a16bce8de"
         method="POST"
         encType="multipart/form-data"
       >
