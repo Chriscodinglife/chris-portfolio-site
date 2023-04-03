@@ -1,6 +1,6 @@
 import React from "react";
 
-const messageURL = process.env.message_url;
+const messageURL = "https://getform.io/f/777b09ee-e3d1-4e71-82e2-a7e15cf873df";
 
 const Contact = () => {
   return (
