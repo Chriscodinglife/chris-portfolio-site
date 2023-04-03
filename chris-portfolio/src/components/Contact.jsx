@@ -1,6 +1,6 @@
 import React from "react";
 
-const messageURL = process.env.MESSAGEURL;
+const { VITE_MESSAGE } = import.meta.env;
 
 const Contact = () => {
   return (
