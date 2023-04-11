@@ -7,9 +7,9 @@ const data = [
     title: "IT Engineer IV",
     company: "Greenhouse Software",
     details:
-      "- Developing innovative automations for IT tasks using Docker and other tools\
-      - Administering Okta with Okta Workflows and Okta's built-in API for enhanced security and streamlined IT workflows\
-      - Writing Python scripts to streamline and optimize the daily tasks of the IT team\
+      "- Developing innovative automations for IT tasks using Docker and other tools\n\
+      - Administering Okta with Okta Workflows and Okta's built-in API for enhanced security and streamlined IT workflows\n\
+      - Writing Python scripts to streamline and optimize the daily tasks of the IT team\n\
       - Providing expertise and support to my colleagues on programming-related questions",
   },
   {
@@ -17,9 +17,9 @@ const data = [
     title: "Support Engineer",
     company: "Cedar",
     details:
-      "- Provided technical assistance to users in-person and remote settings and resolved technical issues\
-      - Triaged, troubleshooted and escalated issues to the appropriate team\
-      - Introduced bash scripting to IT Team to assist in the automation of daily tasks\
+      "- Provided technical assistance to users in-person and remote settings and resolved technical issues\n\
+      - Triaged, troubleshooted and escalated issues to the appropriate team\n\
+      - Introduced bash scripting to IT Team to assist in the automation of daily tasks\n\
       - Managed machines with Jamf to ensure compliance and security",
   },
   {
@@ -27,9 +27,9 @@ const data = [
     title: "Lab Technician",
     company: "Pratt Institute",
     details:
-      "- Managed and maintained lab rooms of Mac OS devices\
-      - Updated and ensured the security of devices\
-      - Wrote bash scripts to automate repetitive tasks and improve efficiency\
+      "- Managed and maintained lab rooms of Mac OS devices\n\
+      - Updated and ensured the security of devices\n\
+      - Wrote bash scripts to automate repetitive tasks and improve efficiency\n\
       - Used JAMF MDM to manage the devices across the school campus",
   },
 ];
