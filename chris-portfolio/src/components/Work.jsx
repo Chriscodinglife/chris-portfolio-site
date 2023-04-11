@@ -7,21 +7,30 @@ const data = [
     title: "IT Engineer IV",
     company: "Greenhouse Software",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, diam sit amet aliquam ultricies, diam tortor ultricies massa,",
+      "- Developing innovative automations for IT tasks using Docker and other tools\
+      - Administering Okta with Okta Workflows and Okta's built-in API for enhanced security and streamlined IT workflows\
+      - Writing Python scripts to streamline and optimize the daily tasks of the IT team\
+      - Providing expertise and support to my colleagues on programming-related questions",
   },
   {
     year: "May 2021 - Nov 2021",
     title: "Support Engineer",
     company: "Cedar",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, diam sit amet aliquam ultricies, diam tortor ultricies massa,",
+      "- Provided technical assistance to users in-person and remote settings and resolved technical issues\
+      - Triaged, troubleshooted and escalated issues to the appropriate team\
+      - Introduced bash scripting to IT Team to assist in the automation of daily tasks\
+      - Managed machines with Jamf to ensure compliance and security",
   },
   {
     year: "October 2018 - May 2021",
     title: "Lab Technician",
     company: "Pratt Institute",
     details:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet, diam sit amet aliquam ultricies, diam tortor ultricies massa,",
+      "- Managed and maintained lab rooms of Mac OS devices\
+      - Updated and ensured the security of devices\
+      - Wrote bash scripts to automate repetitive tasks and improve efficiency\
+      - Used JAMF MDM to manage the devices across the school campus",
   },
 ];
 
