@@ -36,7 +36,7 @@ const Main = () => {
               style={{ fontSize: "1em", paddingLeft: "5px" }}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[100px] w-full">
+          <div className="flex justify-between gap-3 pt-6 max-w-[100px] w-full">
             <a href="https://www.linkedin.com/in/chrisdotorellana/">
               <FaLinkedin className="cursor-pointer" size={30} />
             </a>
