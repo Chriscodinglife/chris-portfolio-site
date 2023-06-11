@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaBlogger } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -42,6 +42,9 @@ const Main = () => {
             </a>
             <a href="https://github.com/Chriscodinglife">
               <FaGithub className="cursor-pointer" size={30} />
+            </a>
+            <a href="https://blog.chriscoding.app">
+              <FaBlogger className="cursor-pointer" size={30} />
             </a>
           </div>
         </div>
