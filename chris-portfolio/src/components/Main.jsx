@@ -7,45 +7,47 @@ const Main = () => {
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="https://images.unsplash.com/photo-1494959764136-6be9eb3c261e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-        alt=""
+        src="https://chriscodingimages.s3.amazonaws.com/wallpaper.png"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
-            I'm Chris Orellana
-          </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
-            I'm
-            <TypeAnimation
-              sequence={[
-                "a Programmer", // Types 'One'
-                2000, // Waits 1s
-                "a Developer", // Deletes 'One' and types 'Two'
-                2000, // Waits 2s
-                "a Coder",
-                2000,
-                "an IT Administrator",
-                2000,
-                "a Backend Developer",
-                2000,
-              ]}
-              wrapper="span"
-              cursor={true}
-              repeat={Infinity}
-              style={{ fontSize: "1em", paddingLeft: "5px" }}
-            />
-          </h2>
-          <div className="flex justify-between gap-3 pt-6 max-w-[100px] w-full">
-            <a href="https://www.linkedin.com/in/chrisdotorellana/">
-              <FaLinkedin className="cursor-pointer" size={30} />
-            </a>
-            <a href="https://github.com/Chriscodinglife">
-              <FaGithub className="cursor-pointer" size={30} />
-            </a>
-            <a href="https://blog.chriscoding.app">
-              <FaBlogger className="cursor-pointer" size={30} />
-            </a>
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/10">
+        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:center items-center pb-40">
+          <div className="bg-white/90 shadow-lg shadow-slate-800 flex flex-col w-3/4 items-center rounded-xl p-10">
+            <img src="/chris_circle_logo.png" className="object-scale-down h-40 w-40 m-5" />
+            <h1 className="sm:text-5xl text-4xl font-barlow font-bold text-gray-800">
+              Hi, I'm Chris Orellana 👋
+            </h1>
+            <h2 className="flex sm:text-3xl text-2xl pt-4 font-barlow font-medium text-gray-800">
+              I'm
+              <TypeAnimation
+                sequence={[
+                  "a Programmer 👨‍💻", // Types 'One'
+                  2000, // Waits 1s
+                  "a Software Engineer 🤖", // Deletes 'One' and types 'Two'
+                  2000, // Waits 2s
+                  "a Computer Nerd 👾",
+                  2000,
+                  "an IT Administrator 🛠️",
+                  2000,
+                  "a Backend Developer ⚙️",
+                  2000,
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={Infinity}
+                style={{ fontSize: "1em", paddingLeft: "5px" }}
+              />
+            </h2>
+            <div className="flex justify-between gap-3 pt-6 max-w-[100px] w-full">
+              <a href="https://www.linkedin.com/in/chrisdotorellana/">
+                <FaLinkedin className="cursor-pointer" size={30} />
+              </a>
+              <a href="https://github.com/Chriscodinglife">
+                <FaGithub className="cursor-pointer" size={30} />
+              </a>
+              <a href="https://blog.chriscoding.app">
+                <FaBlogger className="cursor-pointer" size={30} />
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -9,15 +9,14 @@ import eng2frImg from "../assets/eng2fre.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+    <div id="projects" className="max-w-[1040px] m-auto md:pl-20 p-20">
+      <h1 className="text-5xl font-bold text-center text-gray-800">
         Projects
       </h1>
-      <p className="text-center py-8">
-        My most recent and favorite projects I've worked on, spanning from local
-        useful scripts, to apps deployed on the web and the App Store.
+      <p className="flex flex-row justify-center text-center md:px-40 px-2 py-16">
+      I've really enjoyed working on a variety of projects, from creating useful local scripts to launching apps on the web and the App Store. 🚀 These projects have been some of my favorite experiences.
       </p>
-      <div className="grid sm:grid-cols-2 gap-12">
+      <div className="grid sm:grid-cols-2 gap-16 pb-20">
         <ProjectItem
           img={howComputerImg}
           title="How To Computer App"

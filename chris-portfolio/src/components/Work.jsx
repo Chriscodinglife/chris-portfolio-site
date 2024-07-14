@@ -3,50 +3,61 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
+    year: "Feb 2024 - Present",
+    title: "Software Engineer - Enterpise Apps",
+    company: "Greenhouse Software",
+    details: 
+      "🎉 Spearhead app development for automating employee celebrations\n\
+      💻 Utilize JavaScript and Ruby on Rails for internal automations\n\
+      🛠️ Serve as a resource for Corporate IT escalations\n\
+      📈 Boosted IT team productivity by 10% through comprehensive documentation"
+  },
+  {
     year: "Nov 2021 - Present",
     title: "IT Engineer IV",
     company: "Greenhouse Software",
     details:
-      "- Developing innovative automations for IT tasks using Docker and other tools\n\
-      - Administering Okta with Okta Workflows and Okta's built-in API for enhanced security and streamlined IT workflows\n\
-      - Writing Python scripts to streamline and optimize the daily tasks of the IT team\n\
-      - Providing expertise and support to my colleagues on programming-related questions",
+      "🚀 Developed innovative IT automations using AWS infrastructure\n\
+      🔒 Administered Okta with advanced workflows and APIs\n\
+      🐍 Wrote Python scripts to streamline IT tasks\n\
+      💡 Provided programming expertise and support to colleagues",
   },
   {
     year: "May 2021 - Nov 2021",
     title: "Support Engineer",
     company: "Cedar",
     details:
-      "- Provided technical assistance to users in-person and remote settings and resolved technical issues\n\
-      - Triaged, troubleshooted and escalated issues to the appropriate team\n\
-      - Introduced bash scripting to IT Team to assist in the automation of daily tasks\n\
-      - Managed machines with Jamf to ensure compliance and security",
+      "🛠️ Provided technical assistance and resolved issues for users\n\
+      🖥️ Introduced bash scripting for IT task automation\n\
+      ✅ Managed machines with Jamf for compliance and security",
   },
   {
     year: "October 2018 - May 2021",
     title: "Lab Technician",
     company: "Pratt Institute",
     details:
-      "- Managed and maintained lab rooms of Mac OS devices\n\
-      - Updated and ensured the security of devices\n\
-      - Wrote bash scripts to automate repetitive tasks and improve efficiency\n\
-      - Used JAMF MDM to manage the devices across the school campus",
+      "🔐 Ensured security and updates of lab devices\n\
+      ⚙️ Wrote bash scripts to automate tasks and improve efficiency",
   },
 ];
 
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">Work</h1>
-      {data.map((item, idx) => (
-        <WorkItem
-          key={idx}
-          year={item.year}
-          title={item.title}
-          company={item.company}
-          details={item.details}
-        />
-      ))}
+    <div className="bg-gray-200">
+      <div id="work" className="max-w-[1040px] m-auto md:pl-20 md:px-16 px-2 py-16 font-barlow font-bold">
+        <h1 className="text-5xl font-bold text-center text-gray-800 mb-16">Work</h1>
+        <div className="flex flex-col m-auto md:p-2">
+          {data.map((item, idx) => (
+            <WorkItem
+              key={idx}
+              year={item.year}
+              title={item.title}
+              company={item.company}
+              details={item.details}
+            />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
