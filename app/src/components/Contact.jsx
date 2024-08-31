@@ -1,5 +1,7 @@
 import React from "react";
 
+const contactForm = import.meta.env.VITE_FORM;
+
 const Contact = () => {
   return (
     <div className="bg-sky-950">
@@ -10,7 +12,7 @@ const Contact = () => {
         </h1>
         <div className="flex flex-col m-auto w-1/2 pb-10">
           <form
-            action="https://getform.io/f/39d31aca-6a89-432a-bd44-c00a16bce8de"
+            action={contactForm}
             method="POST"
             encType="multipart/form-data"
           >

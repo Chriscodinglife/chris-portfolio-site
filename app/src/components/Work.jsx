@@ -7,37 +7,37 @@ const data = [
     title: "Software Engineer - Enterpise Apps",
     company: "Greenhouse Software",
     details: 
-      "🎉 Spearhead app development for automating employee celebrations\n\
-      💻 Utilize JavaScript and Ruby on Rails for internal automations\n\
-      🛠️ Serve as a resource for Corporate IT escalations\n\
-      📈 Boosted IT team productivity by 10% through comprehensive documentation"
+      "🎉 Spearhead app development for automating employee celebrations\n " +
+      "💻 Utilize JavaScript and Ruby on Rails for internal automations\n " +
+      "🛠️ Serve as a resource for Corporate IT escalations\n " +
+      "📈 Boosted IT team productivity by 10% through comprehensive documentation"
   },
   {
     year: "Nov 2021 - Present",
     title: "IT Engineer IV",
     company: "Greenhouse Software",
     details:
-      "🚀 Developed innovative IT automations using AWS infrastructure\n\
-      🔒 Administered Okta with advanced workflows and APIs\n\
-      🐍 Wrote Python scripts to streamline IT tasks\n\
-      💡 Provided programming expertise and support to colleagues",
+      "🚀 Developed innovative IT automations using AWS infrastructure\n " +
+      "🔒 Administered Okta with advanced workflows and APIs\n " +
+      "🐍 Wrote Python scripts to streamline IT tasks\n " +
+      "💡 Provided programming expertise and support to colleagues",
   },
   {
     year: "May 2021 - Nov 2021",
     title: "Support Engineer",
     company: "Cedar",
     details:
-      "🛠️ Provided technical assistance and resolved issues for users\n\
-      🖥️ Introduced bash scripting for IT task automation\n\
-      ✅ Managed machines with Jamf for compliance and security",
+      "🛠️ Provided technical assistance and resolved issues for users\n " +
+      "🖥️ Introduced bash scripting for IT task automation\n " +
+      "✅ Managed machines with Jamf for compliance and security",
   },
   {
     year: "October 2018 - May 2021",
     title: "Lab Technician",
     company: "Pratt Institute",
     details:
-      "🔐 Ensured security and updates of lab devices\n\
-      ⚙️ Wrote bash scripts to automate tasks and improve efficiency",
+      "🔐 Ensured security and updates of lab devices\n " +
+      "⚙️ Wrote bash scripts to automate tasks and improve efficiency",
   },
 ];
 

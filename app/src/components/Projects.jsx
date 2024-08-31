@@ -6,6 +6,12 @@ import obsGuiImg from "../assets/obsGui.png";
 import streamCreatorImg from "../assets/streamCreator.png";
 import windowsLoginImg from "../assets/windowslogin.png";
 import eng2frImg from "../assets/eng2fre.png";
+import caneye from "../assets/caneye.png";
+import discordBirthday from "../assets/discordbirthday.png";
+
+const projectsMessage = "I've worked on a variety of projects, from developing efficient " +
+                        "automations to launching apps on the web and the App Store. " +
+                        "🚀 These have been some of my most rewarding experiences."
 
 const Projects = () => {
   return (
@@ -14,9 +20,21 @@ const Projects = () => {
         Projects
       </h1>
       <p className="flex flex-row justify-center text-center md:px-40 px-2 py-16">
-      I've really enjoyed working on a variety of projects, from creating useful local scripts to launching apps on the web and the App Store. 🚀 These projects have been some of my favorite experiences.
+      {projectsMessage}
       </p>
       <div className="grid sm:grid-cols-2 gap-16 pb-20">
+        <ProjectItem
+          img={discordBirthday}
+          title="Happy Birthday Discord Bot"
+          details="Node.js"
+          link="https://discord.com/oauth2/authorize?client_id=1184275134446579743"
+        />
+        <ProjectItem
+          img={caneye}
+          title="Can Eye iPhone App"
+          details="Swift"
+          link="https://apps.apple.com/us/app/can-eye/id6471035637?platform=iphone"
+        />
         <ProjectItem
           img={howComputerImg}
           title="How To Computer App"

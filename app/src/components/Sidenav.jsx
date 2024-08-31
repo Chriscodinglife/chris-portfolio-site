@@ -1,27 +1,17 @@
 import React, { useState } from "react";
 import {
   AiOutlineMenu,
-  AiOutlineProject,
-  AiOutlineMail,
   AiFillHome,
   AiFillFire,
   AiFillExperiment,
   AiFillMail,
-} from "react-icons/ai"; // This is for importing the react icons
-import { BsPerson } from "react-icons/bs"; // This is for importing the react icons
-
-// This is the Side Nav bar that will be on the left side of the page
+} from "react-icons/ai";
 
 export const Sidenav = () => {
-  const [nav, setNav] = useState(false); // Set a const to state the nav bar is false
+  const [nav, setNav] = useState(false);
   const handleNav = () => {
-    setNav(!nav); // Set the nav bar to to the opposite of what it is
+    setNav(!nav);
   };
-
-  // Itinerary operator to show the nav bar
-  // If nav is true, then show the nav bar
-  // If nav is false, then don't show the nav bar
-
 
   const iconSize = 20
   const MyIcons = Object.freeze({
